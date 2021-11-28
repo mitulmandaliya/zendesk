@@ -1,0 +1,9 @@
+Get all tickets
+---
+tags:
+  - Tickets
+responses:
+  400:
+    description: Invalid Request
+  200:
+    description: Success

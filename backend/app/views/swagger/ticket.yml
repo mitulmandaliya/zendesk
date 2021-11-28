@@ -1,0 +1,15 @@
+gets a specific ticket
+---
+tags:
+  - Tickets
+parameters:
+  - name: id
+    in: path
+    type: string
+    required: true
+    description: The ticket id to retrieve information about
+responses:
+  404:
+    description: Invalid Request
+  200:
+    description: Ticket found
